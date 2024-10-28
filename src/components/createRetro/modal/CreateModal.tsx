@@ -41,7 +41,6 @@ const CreateModal: React.FC<CreateModalProps> = ({ isOpen, onClose, templateId, 
   const [requestData, setRequestData] = useState<PostRetrospectivesRequest>({
     title: '',
     type: type,
-    userId: 1,
     templateId: templateId || null,
     status: status,
     thumbnail: null,
